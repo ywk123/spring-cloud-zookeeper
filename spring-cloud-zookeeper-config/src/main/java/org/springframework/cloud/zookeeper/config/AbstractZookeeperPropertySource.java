@@ -48,4 +48,7 @@ public abstract class AbstractZookeeperPropertySource
 		return this.context;
 	}
 
+	public static void main(String[] args) {
+
+	}
 }
