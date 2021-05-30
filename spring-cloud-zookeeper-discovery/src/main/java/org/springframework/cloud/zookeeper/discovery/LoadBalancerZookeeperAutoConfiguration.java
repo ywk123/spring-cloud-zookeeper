@@ -40,5 +40,11 @@ import org.springframework.context.annotation.Configuration;
 @ConditionalOnLoadBalancerForZookeeperEnabled
 @AutoConfigureAfter({LoadBalancerAutoConfiguration.class, ZookeeperDependenciesAutoConfiguration.class})
 @LoadBalancerClients(defaultConfiguration = ZookeeperLoadBalancerConfiguration.class)
+
+public static void main(String[]args){
+
+        }
+
+
 public class LoadBalancerZookeeperAutoConfiguration {
 }
