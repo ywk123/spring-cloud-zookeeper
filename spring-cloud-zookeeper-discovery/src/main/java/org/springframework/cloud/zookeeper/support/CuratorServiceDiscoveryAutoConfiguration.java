@@ -65,4 +65,8 @@ public class CuratorServiceDiscoveryAutoConfiguration {
 				.customize(ServiceDiscoveryBuilder.builder(ZookeeperInstance.class));
 	}
 
+	public static void main(String[] args) {
+
+	}
+
 }
