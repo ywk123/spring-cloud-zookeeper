@@ -67,6 +67,7 @@ public class CuratorServiceDiscoveryAutoConfiguration {
 
 	public static void main(String[] args) {
 		System.out.println("叶文科");
+		System.out.println('叶少聪');
 	}
 
 	public static void main(String[] args) {
